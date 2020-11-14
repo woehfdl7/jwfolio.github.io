@@ -1,0 +1,51 @@
+@import url('https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css');
+@import url('https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+
+* {font-family: 'Nanum Myeongjo', serif;}
+html {margin: 0;padding: 0;overflow: hidden;}
+body {margin: 0;padding: 0;}
+
+/* 로고와 메뉴 */
+header {position:relative;width: 100%;}
+
+/* 로고 */
+header > h1 {position:fixed;margin-left: 20px; float: left;z-index: 9999;}
+header > h1 > a {height: 100%;}
+header > h1 > a > img {width: 50px;}
+
+/* 메뉴 */
+header > nav {position: fixed; top: 0;right: 0;width: 100%;text-align: right;z-index: 9998;}
+header > nav > div#menu-img-container {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+header > nav > div#menu-img-container > img {width: 50px;}
+header > nav > div#menu-img-container > img:hover {
+    -webkit-transform: rotate(180deg);
+     -moz-transform: rotate(180deg);
+     -o-transform: rotate(180deg);
+     -ms-transform: rotate(180deg);
+     transform: rotate(180deg);
+     transition: 1s;
+}
+header > nav > ul {position: absolute;top:0;right:0;margin-top:34px;margin-right:70px;width: 100%;opacity: 0;transition: 0.4s;}
+header > nav > ul > li {display: inline-block;margin-right: 30px;list-style-type: none;}
+header > nav > ul > li:last-child {margin-right: 21.5px;}
+header > nav > ul > li > a {color:black;text-decoration: none;}
+header > nav > ul > li > a:hover {text-decoration: underline;}
+
+/* Background-image */
+#background > img {position: absolute;z-index: -999;}
+#background > img:first-child {width: 2000px;;top:-200px;left: -1360px;}
+#background > img:nth-child(2) {width: 2000px;;top:-600px;right: -900px;}
+#background > img:last-child {width: 2000px;;top:20px;right: -1300px;}
+
+.visual-zone > img {margin-left: -450px;}
+
+.txt-zone {position:absolute; top:0; right:0; text-align: right; margin-top: 150px;margin-right: 80px;}
+.txt-zone > p {}
+
+.prev-btn > a > img {position: absolute; width: 100px; bottom: 0; right: 0; margin-bottom: 40px;margin-right: 80px;}
+
+
