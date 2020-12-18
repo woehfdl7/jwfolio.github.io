@@ -8,38 +8,87 @@
 </head>
 <body>
     <header>
-        <h1><a href="main.html"><img src="../images/내-사인.png" alt=""></a></h1>
-        <nav id="nav">
-            <div id="menu-img-container"><img id="menu-img" src="../images/X.png" alt=""></div>
-            <ul id="menu-list">
-                <li><a href="./about.html">About</a></li>
-                <li><a href="./projects.html">Projects</a></li>
-            </ul>
-        </nav>
+        <a id="logo"><img src="../images/logo.png" alt=""></a>
     </header>
-    <div id="background">
-        <img src="../images/main-background-yellow.png" alt="">
-        <img src="../images/main-background-blue.png" alt="">
-        <img src="../images/main-background-red.png" alt="">
+    <div id="menu-wrap">
+        <div class="menu-title">
+            <img src="../images/logo.png" alt="">
+            <p>JWFOLIO</p>
+            <p>: 본질에, 위트를</p>
+            <p>무엇을 전달하고자 하는지를 잃지 않으면서도 <br />그것의 질적 수준을 높이며 위트 있고 재미있게 표현하는 것</p>
+        </div>
+        <div class="menu-footer">
+            <p>woehfdl7@naver.com</p>
+            <p>woehfdl7@gmail.com</p>
+            <p>© Baek Jae Won All rights reserved</p>
+        </div>
+        <div id="menu-btn2">
+            <img src="../images/prev-btn.png" alt="">
+        </div>
     </div>
-    <div id="title-1">
-        <h2><img src="../images/title-1.png" alt=""></h2>
+    <div class="slide-wrap" id="slide-wrap">
+        <div class="slide-box">
+            <div class="slide-list">
+                <div class="slide-content">
+                    <img class="slide-img" src="../images/list-3.png" alt="">
+                    <p class="side-txt">To be <br /> Continue..</p>
+                </div>
+                <div class="slide-content">
+                    <a href="project-1.html">
+                        <img class="slide-img" src="../images/list-1.png" alt="">
+                        <div class="slide-content-txt">
+                            <p>의류 브랜드 '파타고니아' 홍보 영상</p>
+                            <p>We do <br /> Patagonia</p>  
+                        </div>
+                    </a>
+                    <p class="side-txt">2019.05 <br /> Video Design</p>
+                </div>
+                <div class="slide-content">
+                    <a href="project-2.html">
+                        <img class="slide-img" src="../images/list-2.png" alt="">
+                        <div class="slide-content-txt">
+                            <p>화장품 브랜드 이니스프리의 '노세범' 홍보 영상</p>
+                            <p>No-Sebum <br /> X Gimon</p> 
+                        </div>
+                    </a>
+                    <p class="side-txt">2019.11 <br /> 3D Design</p>
+                </div>
+                <div class="slide-content">
+                    <a href="project-3.html">
+                        <img class="slide-img" src="../images/list-3.png" alt="">
+                        <div class="slide-content-txt">
+                            <p>뉴미디어 인터랙티브 체험 전시</p>
+                            <p>POP UP <br /> <span>: 불꽃놀이의 이면</span></p> 
+                        </div>
+                    </a>
+                    <p class="side-txt">2020.11 <br /> Project Studio2</p>
+                </div>
+                <div class="slide-content">
+                    <a href="project-4.html">
+                        <img class="slide-img" src="../images/list-4.png" alt="">
+                        <div class="slide-content-txt">
+                            <p>Unity 기반 3D 게임</p>
+                            <p>Trump succeed <br /> in re-election?</p>  
+                        </div>
+                    </a>
+                    <p class="side-txt">2020.05 <br /> Media Programming</p>
+                </div>
+                <div class="slide-content">
+                    <img class="slide-img" src="../images/list-5.png" alt="">
+                </div>
+            </div>
+        </div>
     </div>
-    <div id="title-2">
-        <h2><img src="../images/title-2.png" alt=""></h2>
-    </div>
-    <div id="title-3">
-        <h2><img src="../images/title-3.png" alt=""></h2>
-    </div>
-    <div class="contact">
-        <p>Contact here</p>
-        <p>woehfdl7@naver.com</p>
-        <p>woehfdl7@gmail.com</p>
-        <p>© Baek Jae Won All rights reserved.</p>
-    </div>
+    <footer>
+        <p id="footer">about &nbsp;JWFOLIO</p>
+    </footer>
+    <canvas id='c'></canvas>
 
     <!-- javascript -->
+    <script type="text/javascript" src="../js/dat.gui.min.js"></script>
     <script type="text/javascript" src="../js/main.js"></script>
-    <script type="text/javascript" src="../js/menuHover.js"></script>
+    <script type="text/javascript" src="../js/main-hover.js"></script>
+    <script type="text/javascript" src="../js/fadeIn.js"></script>
+    <script type="text/javascript" src="../js/hideMenu.js"></script>
 </body>
 </html>

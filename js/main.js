@@ -1,3 +1,12 @@
+var slideWrap = document.getElementById("slide-wrap").style;
+
+function whenLoad() {
+    slideWrap.top = "0";
+}
+
+window.addEventListener("load", whenLoad())
+
+/*
 // 타이틀 문구 드래그해서 옮기기
 function dragElement(elmnt) {
     var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0; // 해당 기능 전체에서 사용할 변수를 초기화 합니다.
@@ -33,3 +42,4 @@ function dragElement(elmnt) {
 dragElement(document.getElementById("title-1"));
 dragElement(document.getElementById("title-2"));
 dragElement(document.getElementById("title-3"));
+*/
